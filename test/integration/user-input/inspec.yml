@@ -1,0 +1,5 @@
+---
+name: user-input
+title: Test Module Output Based on Input
+summary: Verifies that the module output is correct based on the provided input.
+version: 0.1.0

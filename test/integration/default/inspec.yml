@@ -1,0 +1,5 @@
+---
+name: default
+title: Test Module Default input
+summary: Will check that the modules produces the expected value without user input.
+version: 0.1.0
