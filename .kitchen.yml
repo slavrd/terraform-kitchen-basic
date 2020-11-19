@@ -11,7 +11,7 @@ verifier:
       backend: local
 
 platforms:
-  - name: default-nothing-module
+  - name: default-input-nothing-module
     driver:
       root_module_directory: test/fixtures/default_input
 
@@ -22,7 +22,7 @@ platforms:
         user_input: "test"
 
 suites:
-  - name: default
-    includes: default-nothing-module
+  - name: default-input
+    includes: default-input-nothing-module
   - name: user-input
     includes: user-input-nothing-module
